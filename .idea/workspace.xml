@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d81fecb4-910c-4734-b55b-bd365a6edca3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hells.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practisechek/Opera.java" afterDir="false" />
+    <list default="true" id="d81fecb4-910c-4734-b55b-bd365a6edca3" name="Changes" comment="1">
+      <change beforePath="$PROJECT_DIR$/src/Practisechek/HW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practisechek/HW.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +52,22 @@
       <recent name="Filtersystem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.R">
+  <component name="RunManager" selected="Application.HW">
     <configuration name="CosX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practisechek.CosX" />
+      <module name="Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practisechek.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practisechek.HW" />
       <module name="Lessons" />
       <extension name="coverage">
         <pattern>
@@ -102,19 +105,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenAIforDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practisechek.OpenAIforDown" />
-      <module name="Lessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practisechek.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="R" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practisechek.R" />
       <module name="Lessons" />
@@ -130,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HW" />
         <item itemvalue="Application.R" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.CosX" />
         <item itemvalue="Application.OpenAI" />
-        <item itemvalue="Application.OpenAIforDown" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +137,21 @@
       <option name="presentableId" value="Default" />
       <updated>1664389503796</updated>
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1673804939193</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673804939193</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1">
+      <created>1673805077700</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673805077700</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,11 +159,21 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -215,6 +230,15 @@
           <properties class="java.lang.NegativeArraySizeException" package="java.lang" />
           <option name="timeStamp" value="112" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Practisechek/HW.java</url>
+          <line>3</line>
+          <properties class="Practisechek.HW" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
